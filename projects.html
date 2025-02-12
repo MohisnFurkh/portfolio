@@ -106,19 +106,60 @@
     <div class="space-y-6">
         
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">EfficientU-Net: AI-Powered Breast Tumor Segmentation</h3>
+            <h3 class="text-xl font-semibold mb-2">EfficientU-Net for Medical Image Segmentation</h3>
             <p class="text-gray-700">
-                Developed a novel deep learning-based architecture for the automated segmentation and classification of breast tumors in ultrasound images.
-                Achieved state-of-the-art results with high precision and recall.
+                Developed a novel deep learning-based model for breast tumor segmentation and classification in ultrasound images. 
+                EfficientU-Net enhances the standard U-Net by incorporating EfficientNet as an encoder, 
+                which utilizes depth-wise separable convolution to maintain feature details while reducing computational complexity. 
+                Additionally, an atrous convolution (AC) block is integrated to capture multi-scale contextual information, improving segmentation accuracy. 
+                The model is evaluated on publicly available datasets (BUSI and Dataset B), demonstrating superior performance with fewer parameters, 
+                lower inference time, and higher accuracy than existing methods.
             </p>
-            <a href="https://github.com/MohisnFurkh/breast-tumor-segmentation" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+            <a href="https://doi.org/10.1007/s11063-023-11333-x" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
+            <a href="https://github.com/MohisnFurkh/EfficientU-Net" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
         </div>
+        
+         <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Deep Learning and Genetic Algorithm-based Ensemble Model</h3>
+            <p class="text-gray-700">
+                The study presents a hybrid deep learning and genetic algorithm-based ensemble model for feature selection and classification of BUS images. 
+                MobileNet is identified as the optimal deep-learning model for feature extraction due to its efficiency and high validation accuracy. 
+                The Genetic Algorithm (GA) is utilized for feature selection, optimizing the feature space to enhance classification performance. 
+                A weighted voting-based ensemble model combines multiple classifiers to improve diagnostic accuracy. 
+                Empirical evaluations on the BUSI and UDIAT datasets show significant improvements of approximately 4% and 9% in classification accuracy, 
+                demonstrating the practical value of this approach in breast cancer diagnosis.
+            </p>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0262885624001227" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
+            <a href="https://github.com/MohisnFurkh/Genetic-Algorithm-based-Feature-Selection" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">UMA-Net with Multi-Scale Attention</h3>
+            <p class="text-gray-700">
+                This research proposes UMA-Net, an advanced U-Net-based architecture designed for BUS image segmentation, addressing challenges posed by frequency and scale variations. 
+                UMA-Net incorporates residual connections, attention mechanisms, and an atrous convolution-based bottleneck to capture multi-scale contextual information effectively. 
+                A novel adaptive ensemble loss function dynamically balances different loss components during training, optimizing key segmentation metrics. 
+                Extensive evaluations on five BUS datasets—BUET, BUSI, Mendeley, OMI, and UDIAT—demonstrate UMA-Net's superior generalization and segmentation accuracy, 
+                making it a robust solution for BUS image analysis.
+            </p>
+            <a href="https://doi.org/10.1007/s11517-025-03301-5" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
+            <a href="https://github.com/MohisnFurkh/UMA-Net-with-Multi-Scale-Attention" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+        </div>
+
+        
         
         <div class="bg-white p-6 rounded-lg shadow-md">
             <h3 class="text-xl font-semibold mb-2">Fuzzy Rough Set Loss for Medical Image Segmentation</h3>
             <p class="text-gray-700">
-                Designed an advanced loss function (FRS Loss) to handle boundary uncertainty in medical image segmentation, improving performance in real-world clinical settings.
+                This research introduces the Fuzzy Rough Set (FRS) loss function, which enhances medical image segmentation 
+                by addressing boundary uncertainty and class imbalance through fuzzy similarity measures and rough set approximations. 
+                The FRS loss function leverages fuzzy rough set theory to improve sensitivity to uncertain predictions and effectively resolve boundary ambiguities. 
+                Comprehensive experiments across multiple segmentation models (U-Net, Attention U-Net, SegNet, DeepLabV3+, and nnU-Net) and 
+                diverse datasets (breast ultrasound, gastrointestinal polyp, brain MRI, chest CT, and skin cancer imaging) 
+                show that the FRS loss function significantly improves segmentation accuracy, boundary-specific metrics, and computational efficiency compared to conventional loss functions. 
+                The results highlight its potential for clinical applications requiring precise lesion delineation and real-time processing.
             </p>
+            <a href="https://doi.org/10.1007/s11063-023-11333-x" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
             <a href="https://github.com/MohisnFurkh/fuzzy-rough-loss" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
         </div>
 
@@ -129,15 +170,9 @@
                 Presented research at ICCCNet-2024.
             </p>
             <a href="https://doi.org/10.1007/s11517-025-03301-5" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
+            <a href="https://github.com/MohisnFurkh/Adaptive-Ensemble-Loss" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
         </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Automated Ultrasound Image Classification with Genetic Algorithm</h3>
-            <p class="text-gray-700">
-                Implemented a genetic algorithm-based feature selection model for breast ultrasound classification, enhancing interpretability and diagnostic accuracy.
-            </p>
-            <a href="https://www.sciencedirect.com/science/article/pii/S0262885624001227" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
-        </div>
+       
 
         <div class="bg-white p-6 rounded-lg shadow-md">
             <h3 class="text-xl font-semibold mb-2">Face Detection and Recognition for Biometric Security</h3>
@@ -146,6 +181,43 @@
                 Published findings in the International Journal of Science and Research (IJSR).
             </p>
             <a href="https://www.ijsr.net/search_index_results_paperid.php?id=ART20194439" target="_blank" class="text-blue-500 hover:underline">View Research Paper</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">IEEE-BigMM-Data-Challenge</h3>
+            <p class="text-gray-700">
+                This grand challenge involves creating multi-task multimodality frameworks aiming at predicting labels for a given tweet.
+            </p>
+            <a href="https://github.com/MohisnFurkh/IEEE-BigMM-Data-Challenge" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Toxic-Comment-Classification-Challenge</h3>
+            <p class="text-gray-700">
+                Building a multi-headed model that’s capable of detecting different types of toxicity like threats, obscenity, insults, and identity-based hate better than perspective’s current models.
+            </p>
+            <a href="https://github.com/MohisnFurkh/Toxic-Comment-Classification-Challenge?tab=readme-ov-file#toxic-comment-classification-challenge" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Pima-Indians-Diabetes-Database</h3>
+            <p class="text-gray-700">
+                This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. 
+                The objective of the dataset is to diagnostically predict whether or not a patient has diabetes based on certain diagnostic measurements included in the dataset. 
+                Several constraints were placed on the selection of these instances from a larger database. 
+                In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+            </p>
+            <a href="https://github.com/MohisnFurkh/Pima-Indians-Diabetes-Database" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Email-Spam-Classification</h3>
+            <p class="text-gray-700">
+               Spam classifier program in python which can tell whether a given message is spam or not. 
+                We have used the K Nearest Neighbor ML algorithm for this classification. 
+                For message embedding, we have used the Zeugma embedding library of Python.
+            </p>
+            <a href="https://github.com/MohisnFurkh/Email-Spam-Classification" target="_blank" class="text-blue-500 hover:underline">View on GitHub</a>
         </div>
 
     </div>
