@@ -7,271 +7,66 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50">
-    <div class="flex flex-col md:flex-row min-h-screen">
-        <!-- Left Sidebar -->
-        <aside class="w-full md:w-1/3 xl:w-1/4 bg-gradient-to-b from-gray-800 to-black text-white p-6 lg:p-8">
-            <div class="sticky top-0 space-y-8">
-                <img src="Portrait.jpg" alt="Mohsin Furkh Dar" class="rounded-full w-32 h-32 mx-auto md:mx-0 object-cover border-4 border-white shadow-lg">
-                <div>
-                    <h1 class="text-2xl font-bold mb-2">Mohsin Furkh Dar</h1>
-                    <p class="text-gray-300 mb-4">PhD Researcher in Deep Learning & Computer Vision</p>
-                    <div class="space-y-3">
-                        <div class="flex items-center">
-                            <span class="mr-2">📧</span>
-                            <a href="mailto:mohsinfaurkh@gmail.com" class="hover:text-blue-400 break-all">mohsinfaurkh@gmail.com</a>
-                        </div>
-                        <div class="flex items-center">
-                            <span class="mr-2">📱</span>
-                            <a href="tel:+919797461214" class="hover:text-blue-400">+91 9797461214</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education in Sidebar -->
-                <section class="pt-4 border-t border-gray-700">
-                    <h2 class="text-xl font-bold mb-4">Education</h2>
-                    <div class="space-y-4">
-                        <div>
-                            <h3 class="font-semibold">PhD in Computer Science</h3>
-                            <p class="text-sm text-gray-300">University of Hyderabad<br>2020–2025</p>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold">M.Phil Computer Science</h3>
-                            <p class="text-sm text-gray-300">Mewar University<br>2017–2019</p>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold">MCA</h3>
-                            <p class="text-sm text-gray-300">Kashmir University<br>2013–2016</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Skills in Sidebar -->
-                <section class="pt-4 border-t border-gray-700">
-                    <h2 class="text-xl font-bold mb-4">Technical Skills</h2>
-                    <div class="space-y-2">
-                        <div>
-                            <h3 class="font-semibold">Deep Learning</h3>
-                            <p class="text-sm text-gray-300">TensorFlow, Keras, PyTorch</p>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold">Programming</h3>
-                            <p class="text-sm text-gray-300">Python, MATLAB, LaTeX</p>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold">Cloud</h3>
-                            <p class="text-sm text-gray-300">AWS, GCP, Azure</p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="flex-1">
-            <nav class="bg-white shadow-md sticky top-0 z-50">
-                <div class="container mx-auto px-4">
-                    <ul class="flex flex-wrap justify-center space-x-6 py-4">
-                        <li><a href="#about" class="hover:text-blue-600">About</a></li>
-                        <li><a href="#publications" class="hover:text-blue-600">Publications</a></li>
-                        <li><a href="#research" class="hover:text-blue-600">Research</a></li>
-                        <li><a href="#teaching" class="hover:text-blue-600">Teaching</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-           <main class="container mx-auto px-4 py-8">
-        <section id="about" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Professional Summary</h2>
-            <p class="text-lg text-gray-700 leading-relaxed">
-                A dedicated researcher and educator specializing in Deep Learning, Computer Vision, and Medical Image Analysis. Currently pursuing a PhD in Computer Science, with a focus on developing AI-driven healthcare solutions. I have authored multiple high-impact publications (IF: 2.5–8.9) and excel in developing novel deep-learning architectures for real-world applications. My expertise spans curriculum development, mentoring, and leading research projects in medical imaging.
-            </p>
+    <header class="bg-white shadow-md p-6 text-center">
+        <h1 class="text-3xl font-bold">Mohsin Furkh Dar</h1>
+        <p class="text-gray-600">AI Researcher | Deep Learning | Medical Imaging</p>
+    </header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <!-- Research at a Glance -->
+        <section id="summary" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold mb-4">Research at a Glance</h2>
+            <p class="text-lg text-gray-700">Specializing in Deep Learning and AI-powered healthcare solutions, I develop state-of-the-art models for medical image segmentation and classification. Passionate about advancing medical AI for real-world impact.</p>
         </section>
-
-        <section id="education" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Education</h2>
-            <div class="grid gap-6">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">PhD in Computer Science</h3>
-                    <p class="text-gray-600">University of Hyderabad | Nov 2020 – Mar 2025</p>
-                    <p class="text-gray-700 mt-2">Thesis: Advanced Deep Learning Architectures for Medical Image Segmentation and Classification</p>
-                    <p class="text-gray-600 italic">Advisor: Dr. Avatharam Ganivada</p>
+        
+        <!-- Research Timeline -->
+        <section id="timeline" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Research Journey</h2>
+            <div class="timeline flex flex-col space-y-6">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">PhD in Computer Science</h3>
+                    <p class="text-gray-600">2020 – 2025 | University of Hyderabad</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">M.Phil in Computer Science</h3>
-                    <p class="text-gray-600">Mewar University | Sept 2017 – Mar 2019</p>
-                    <p class="text-gray-700">CGPA: 7.00/10</p>
-                    <p class="text-gray-700 mt-2">Thesis: Performance Comparison of Face Detection and Recognition Algorithms</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">Master's in Computer Applications</h3>
-                    <p class="text-gray-600">Kashmir University | Mar 2013 – June 2016</p>
-                    <p class="text-gray-700">Score: 69.03/100</p>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Key Publications</h3>
+                    <p class="text-gray-600">EfficientU-Net for Breast Tumor Segmentation (2023)</p>
                 </div>
             </div>
         </section>
-
-        <section id="publications" class="mb-12">
-    <h2 class="text-3xl font-bold mb-6 text-gray-800">Selected Publications</h2>
-    <div class="space-y-6">
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Journal Articles</h3>
-            <ul class="space-y-4">
-                <li>
-                    <p class="font-medium">"EfficientU-Net: A Novel Deep Learning Method for Breast Tumor Segmentation and Classification in Ultrasound Images"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">
-                        <a href="https://doi.org/10.1007/s11063-023-11333-x" target="_blank">
-                            Neural Processing Letters, 2023 (DOI)
-                        </a>
-                    </p>
-                </li>
-                <li>
-                    <p class="font-medium">"Deep Learning and Genetic Algorithm-based Ensemble Model for Feature Selection and Classification of Breast Ultrasound Images"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">
-                        <a href="https://www.sciencedirect.com/science/article/pii/S0262885624001227" target="_blank">
-                            Image and Vision Computing, 2024 (DOI)
-                        </a>
-                    </p>
-                </li>
-                <li>
-                    <p class="font-medium">"Adaptive Ensemble Loss and Multi-Scale Attention in Breast Ultrasound Segmentation with UMA-Net"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">
-                        <a href="https://doi.org/10.1007/s11517-025-03301-5" target="_blank">
-                            Medical & Biological Engineering & Computing, 2025 (DOI)
-                        </a>
-                    </p>
-                </li>
-                <li>
-                    <p class="font-medium">"Latent Fingerprint Enhancement and Matching Using Intuitionistic Type-2 Fuzzy"</p>
-                    <p class="text-gray-600">Sayima Mukhtar, <strong>Mohsin Furkh Dar</strong>, Amandeep Kaur</p>
-                    <p class="text-gray-600">
-                        <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJAISC.2022.130558" target="_blank">
-                            International Journal of Artificial Intelligence and Soft Computing, 2022 (DOI)
-                        </a>
-                    </p>
-                </li>
-                <li>
-                    <p class="font-medium">"Design and Analysis of a Robust Security Layer for Software-Defined Network Framework"</p>
-                    <p class="text-gray-600">Ali Nadim Alhaj, Narottam Das Patel, Ajeet Singh, Rohit Kumar Bondugula, <strong>Mohsin Furkh Dar</strong>, Jameel Ahamed</p>
-                    <p class="text-gray-600">
-                        <a href="https://doi.org/10.1504/IJSNET.2024.141613" target="_blank">
-                            International Journal of Sensor Networks, 2024 (DOI)
-                        </a>
-                    </p>
-                </li>
-                <li>
-                    <p class="font-medium">"Performance Comparison of Face Detection and Recognition Algorithms"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Sarvottam Dixit</p>
-                    <p class="text-gray-600">
-                        <a href="https://www.ijsr.net/search_index_results_paperid.php?id=ART20194439" target="_blank">
-                            International Journal of Science and Research, 2019 (DOI)
-                        </a>
-                    </p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Conference Proceedings</h3>
-            <ul class="space-y-4">
-                <li>
-                    <p class="font-medium">"Dynamic Weight Adjusted Ensemble Loss for Enhanced Medical Image Segmentation"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">Accepted in ICCCNet-2024, Indexed in: Scopus, Ei, WoS</p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Journal Articles Under Review</h3>
-            <ul class="space-y-4">
-                <li>
-                    <p class="font-medium">"Multi-Modal AttentionNet for Medical Image Classification with Dual Branch Feature Extraction and Saliency Maps"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">Under review in IEEE Transactions on Emerging Topics in Computational Intelligence</p>
-                </li>
-                <li>
-                    <p class="font-medium">"Fuzzy Rough Set Loss for Handling Boundary Uncertainty in Medical Image Segmentation"</p>
-                    <p class="text-gray-600"><strong>Mohsin Furkh Dar</strong>, Dr. Avatharam Ganivada</p>
-                    <p class="text-gray-600">Under review in IEEE Transactions on Medical Imaging</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-
-        <section id="research" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Research Experience</h2>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-4">Research Scholar & Teaching Assistant</h3>
-                <p class="text-gray-600 mb-4">University of Hyderabad | Nov 2020 – Mar 2025</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li>Developed novel architectures (EfficientU-Net and UMA-Net), achieving state-of-the-art results</li>
-                    <li>Created advanced loss functions (FRS Loss and Adaptive Ensemble Loss) for medical image segmentation</li>
-                    <li>Published 7 journal articles in high-impact journals</li>
-                    <li>Mentored 10+ IMTech and MTech students in Deep Learning and Computer Vision</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="skills" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Technical Skills</h2>
+        
+        <!-- Projects & Research Portfolio -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Projects & Research</h2>
             <div class="grid md:grid-cols-2 gap-6">
                 <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-4">Deep Learning & ML</h3>
-                    <p class="text-gray-700">TensorFlow, Keras, Scikit-learn, NumPy, Pandas, SciPy, Seaborn</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-4">Cloud Computing</h3>
-                    <p class="text-gray-700">AWS, Google Cloud, Microsoft Azure, HPC for Deep Learning</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-4">Development Tools</h3>
-                    <p class="text-gray-700">MATLAB, LaTeX, Jupyter, PyCharm, Git, Docker</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-4">Programming</h3>
-                    <p class="text-gray-700">Python (Advanced), Research Tools, Version Control</p>
+                    <h3 class="text-xl font-semibold">EfficientU-Net</h3>
+                    <p class="text-gray-700">An advanced deep-learning model for breast tumor segmentation.</p>
                 </div>
             </div>
         </section>
-
-        <section id="teaching" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Teaching Experience</h2>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="mb-6">
-                    <h3 class="text-xl font-semibold mb-2">Teaching Assistant</h3>
-                    <p class="text-gray-600">University of Hyderabad | Nov 2020 – Present</p>
-                    <ul class="list-disc list-inside mt-2 text-gray-700">
-                        <li>Advanced Python Programming</li>
-                        <li>Computer Vision</li>
-                        <li>Research Methodology</li>
-                        <li>Data Structures</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold mb-2">Computer Science Lecturer</h3>
-                    <p class="text-gray-600">Govt Degree College Uri, Baramulla | 2018–2019</p>
-                    <ul class="list-disc list-inside mt-2 text-gray-700">
-                        <li>Data Structure and Algorithms</li>
-                        <li>Discrete Mathematics</li>
-                        <li>Computer Networking</li>
-                        <li>Database Systems</li>
-                    </ul>
-                </div>
-            </div>
+        
+        <!-- Blog & Resources -->
+        <section id="blog" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Blog & Resources</h2>
+            <p class="text-lg text-gray-700">Stay updated with insights on deep learning, AI in healthcare, and research techniques.</p>
+        </section>
+        
+        <!-- Contact & Collaboration -->
+        <section id="contact" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's Collaborate!</h2>
+            <p class="text-lg text-gray-700">Connect via <a href="https://scholar.google.com" class="text-blue-500">Google Scholar</a>, <a href="https://linkedin.com" class="text-blue-500">LinkedIn</a>, or <a href="https://researchgate.net" class="text-blue-500">ResearchGate</a>.</p>
+        </section>
+        
+        <!-- Job & Research Opportunities -->
+        <section id="opportunities" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold mb-4">Open to Opportunities</h2>
+            <p class="text-lg text-gray-700">Seeking Postdoc, Assistant Professor, or industry roles in AI & Medical Imaging.</p>
+            <a href="CV.pdf" class="bg-blue-600 text-white px-6 py-2 rounded-lg">Download CV</a>
         </section>
     </main>
-
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2024 Mohsin Furkh Dar. All rights reserved.</p>
-        </div>
+    
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <p>&copy; 2024 Mohsin Furkh Dar. All rights reserved.</p>
     </footer>
 </body>
 </html>
