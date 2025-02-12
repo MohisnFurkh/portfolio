@@ -3,91 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohsin Furkh Dar - AI Researcher</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mohsin Furkh Dar - AI Researcher & Educator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <img src="profile.jpg" alt="Mohsin Furkh Dar" class="profile-photo">
-            <h1>Mohsin Furkh Dar</h1>
-            <p>AI Researcher | Deep Learning | Medical Image Analysis</p>
-            <p>Hyderabad, Telangana, India</p>
-            <p>Email: <a href="mailto:mohsinfaurkh@gmail.com">mohsinfaurkh@gmail.com</a></p>
-            <p>Phone: +91 9797461214</p>
-            <p><a href="https://github.com/mohisnfurkh">GitHub</a> | <a href="https://scholar.google.com/citations?user=DGm9l2wAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.linkedin.com/in/mohsinfurkh/">LinkedIn</a> | <a href="https://www.researchgate.net/profile/Mohsin-Furkh">ResearchGate</a></p>
+<body class="bg-gray-50">
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <img src="/api/placeholder/150/150" alt="Mohsin Furkh Dar" class="rounded-full mx-auto mb-6 shadow-lg">
+            <h1 class="text-4xl font-bold mb-2">Mohsin Furkh Dar</h1>
+            <p class="text-xl mb-4">PhD Researcher in Deep Learning & Computer Vision</p>
+            <p class="text-lg">University of Hyderabad, Telangana, India</p>
+            <div class="mt-4 space-x-4">
+                <a href="mailto:mohsinfaurkh@gmail.com" class="inline-block bg-white text-blue-800 px-4 py-2 rounded-lg hover:bg-blue-100 transition">
+                    📧 mohsinfaurkh@gmail.com
+                </a>
+                <a href="tel:+919797461214" class="inline-block bg-white text-blue-800 px-4 py-2 rounded-lg hover:bg-blue-100 transition">
+                    📱 +91 9797461214
+                </a>
+            </div>
         </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#teaching">Teaching</a></li>
-            <li><a href="#honors">Honors</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <ul class="flex flex-wrap justify-center space-x-6 py-4">
+                <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                <li><a href="#education" class="hover:text-blue-600">Education</a></li>
+                <li><a href="#publications" class="hover:text-blue-600">Publications</a></li>
+                <li><a href="#research" class="hover:text-blue-600">Research</a></li>
+                <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+                <li><a href="#teaching" class="hover:text-blue-600">Teaching</a></li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Researcher specializing in Deep Learning, Computer Vision, and AI-driven Medical Image Analysis. Passionate about developing state-of-the-art AI models for healthcare.</p>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="about" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Professional Summary</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                A dedicated researcher and educator specializing in Deep Learning, Computer Vision, and Medical Image Analysis. Currently pursuing a PhD in Computer Science, with a focus on developing AI-driven healthcare solutions. I have authored multiple high-impact publications (IF: 2.5–8.9) and excel in developing novel deep-learning architectures for real-world applications. My expertise spans curriculum development, mentoring, and leading research projects in medical imaging.
+            </p>
         </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>PhD in Computer Science</strong> - University of Hyderabad (2020-2025)</li>
-                <li><strong>M.Phil in Computer Science</strong> - Mewar University (2017-2019)</li>
-                <li><strong>MCA</strong> - Kashmir University (2013-2016)</li>
-                <li><strong>B.Sc. IT</strong> - Kashmir University (2010-2013)</li>
-            </ul>
+
+        <section id="education" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Education</h2>
+            <div class="grid gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">PhD in Computer Science</h3>
+                    <p class="text-gray-600">University of Hyderabad | Nov 2020 – Mar 2025</p>
+                    <p class="text-gray-700 mt-2">Thesis: Advanced Deep Learning Architectures for Medical Image Segmentation and Classification</p>
+                    <p class="text-gray-600 italic">Advisor: Dr. Avatharam Ganivada</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">M.Phil in Computer Science</h3>
+                    <p class="text-gray-600">Mewar University | Sept 2017 – Mar 2019</p>
+                    <p class="text-gray-700">CGPA: 7.00/10</p>
+                    <p class="text-gray-700 mt-2">Thesis: Performance Comparison of Face Detection and Recognition Algorithms</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Master's in Computer Applications</h3>
+                    <p class="text-gray-600">Kashmir University | Mar 2013 – June 2016</p>
+                    <p class="text-gray-700">Score: 69.03/100</p>
+                </div>
+            </div>
         </section>
-        <section id="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>EfficientU-Net for Breast Tumor Segmentation (Neural Processing Letters, IF: 2.565) <a href="https://doi.org/10.1007/s11063-023-11333-x">Link</a></li>
-                <li>Genetic Algorithm-Based Feature Selection for Breast Ultrasound (IVC, IF: 4.2) <a href="https://www.sciencedirect.com/science/article/pii/S0262885624001227">Link</a></li>
-                <li>Adaptive Ensemble Loss for Medical Image Segmentation (MBEC, IF: 2.6)</li>
-                <li>Under Review: Multi-Modal AttentionNet (IEEE Transactions, IF: 5.3)</li>
-            </ul>
+
+        <section id="publications" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Selected Publications</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">Journal Articles</h3>
+                    <ul class="space-y-4">
+                        <li>
+                            <p class="font-medium">EfficientU-Net: A Novel Deep Learning Method for Breast Tumor Segmentation and Classification</p>
+                            <p class="text-gray-600">Neural Processing Letters (IF: 2.565, 2023)</p>
+                        </li>
+                        <li>
+                            <p class="font-medium">Deep Learning and Genetic Algorithm-based Ensemble Model for Feature Selection and Classification of Breast Ultrasound Images</p>
+                            <p class="text-gray-600">Image and Vision Computing (IF: 4.2, 2024)</p>
+                        </li>
+                        <li>
+                            <p class="font-medium">Adaptive Ensemble Loss and Multi-Scale Attention in Breast Ultrasound Segmentation with UMA-Net</p>
+                            <p class="text-gray-600">Medical & Biological Engineering & Computing (IF: 2.6, 2025)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Programming:</strong> Python, C++, Java</li>
-                <li><strong>Deep Learning:</strong> TensorFlow, Keras</li>
-                <li><strong>Cloud Computing:</strong> AWS, Google Cloud</li>
-                <li><strong>Research Tools:</strong> MATLAB, LaTeX, Git, Docker</li>
-            </ul>
+
+        <section id="research" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Research Experience</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">Research Scholar & Teaching Assistant</h3>
+                <p class="text-gray-600 mb-4">University of Hyderabad | Nov 2020 – Mar 2025</p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Developed novel architectures (EfficientU-Net and UMA-Net), achieving state-of-the-art results</li>
+                    <li>Created advanced loss functions (FRS Loss and Adaptive Ensemble Loss) for medical image segmentation</li>
+                    <li>Published 7 journal articles in high-impact journals</li>
+                    <li>Mentored 10+ IMTech and MTech students in Deep Learning and Computer Vision</li>
+                </ul>
+            </div>
         </section>
-        <section id="research">
-            <h2>Research</h2>
-            <p>Developed novel AI architectures (EfficientU-Net, UMA-Net) and loss functions for medical image segmentation.</p>
+
+        <section id="skills" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Technical Skills</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Deep Learning & ML</h3>
+                    <p class="text-gray-700">TensorFlow, Keras, Scikit-learn, NumPy, Pandas, SciPy, Seaborn</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Cloud Computing</h3>
+                    <p class="text-gray-700">AWS, Google Cloud, Microsoft Azure, HPC for Deep Learning</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Development Tools</h3>
+                    <p class="text-gray-700">MATLAB, LaTeX, Jupyter, PyCharm, Git, Docker</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">Programming</h3>
+                    <p class="text-gray-700">Python (Advanced), Research Tools, Version Control</p>
+                </div>
+            </div>
         </section>
-        <section id="teaching">
-            <h2>Teaching Experience</h2>
-            <ul>
-                <li>Teaching Assistant, University of Hyderabad</li>
-                <li>Lecturer, Govt Degree College Uri</li>
-            </ul>
-        </section>
-        <section id="honors">
-            <h2>Honors & Awards</h2>
-            <ul>
-                <li>UGC NET JRF 2019 (AIR 53)</li>
-                <li>State Rank 3rd in J&K Programmer Exam</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:mohsinfaurkh@gmail.com">mohsinfaurkh@gmail.com</a></p>
-            <p>Phone: +91 9797461214</p>
+
+        <section id="teaching" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Teaching Experience</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold mb-2">Teaching Assistant</h3>
+                    <p class="text-gray-600">University of Hyderabad | Nov 2020 – Present</p>
+                    <ul class="list-disc list-inside mt-2 text-gray-700">
+                        <li>Advanced Python Programming</li>
+                        <li>Computer Vision</li>
+                        <li>Research Methodology</li>
+                        <li>Data Structures</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-2">Computer Science Lecturer</h3>
+                    <p class="text-gray-600">Govt Degree College Uri, Baramulla | 2018–2019</p>
+                    <ul class="list-disc list-inside mt-2 text-gray-700">
+                        <li>Data Structure and Algorithms</li>
+                        <li>Discrete Mathematics</li>
+                        <li>Computer Networking</li>
+                        <li>Database Systems</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Mohsin Furkh Dar. All rights reserved.</p>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Mohsin Furkh Dar. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
